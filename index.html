@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+    <script type="text/javascript" src="js.js" defer></script>
+    <title>Neural Network Front end for Handwritten number</title>
+</head>
+<body>
+<h1>Neural Network Front end for Handwritten number</h1>
+<div class="drawing">
+    <canvas id="input" class="canvas" width="560" height="560"></canvas>
+    <canvas id="detect" class="canvas" width="560" height="560"></canvas>
+    <canvas id="real" class="canvas" width=280 height="280"></canvas>
+</div>
+<p>Expected number : </p>
+<p id="expect">Draw something...</p>
+<p>If your browser is not fast enough to get result fast, use Slow mode!</p>
+<label for="slowMode">Slow mode</label>
+<input type="checkbox" id="slowMode">
+<br>
+<button id="clear" type="button">Clear</button>
+<button id="result" type="button" disabled="disabled">Result</button>
+</body>
+</html>
+

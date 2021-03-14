@@ -1,0 +1,22 @@
+.drawing{
+    position: relative;
+    height: 560px;
+}
+
+.canvas{
+    position: absolute;
+    border: solid 1px black;
+}
+
+#real{
+    margin-left: 570px;
+}
+
+#input{
+    z-index: 1;
+}
+
+#detect{
+    z-index: 2;
+    pointer-events: none;
+}
